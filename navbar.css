@@ -1,0 +1,20 @@
+#navbar{
+    color: black;
+    padding: 30px 0px;
+}
+
+#navLinks{
+    color: black;
+}
+.nav-item .nav-link{
+    color: black;
+}
+
+
+#navbar-title{
+    height: 100%;
+    color: white;
+    font-weight: 800;
+    margin-left: 7.5%;
+    margin-bottom: 0;
+}

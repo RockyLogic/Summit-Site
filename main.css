@@ -1,0 +1,53 @@
+body{
+    width: 100%;
+    color:white;
+    background-color: rgb(25, 26, 42);
+    font-family: 'Montserrat', sans-serif;
+}
+
+section{
+    height: 90vh;
+    padding-bottom: 4vh;
+}
+
+.emphasize{
+color: #32f3ff;
+text-decoration: underline;
+}
+
+.header{
+    padding: 4vh 0px;
+}
+
+.faq-box{
+    padding: 4vh 4vw;
+    margin-bottom: 3vh;
+    background-color: rgb(25, 26, 42);
+    border-top: 3px solid #32f3ff;
+    border-left: 3px solid #32f3ff;
+}
+
+.faq-header{
+    font-weight: 600;
+}
+
+.faq-answer{
+    color:lightgrey;
+}
+#main{
+    height: 100vh;
+}
+
+#features{
+    background-color: rgb(33, 34, 51);
+}
+#sites{
+}
+
+#faq{
+    height: auto;
+    background-color: rgb(33, 34, 51);
+}
+#footer{
+    height: 20vh;
+}
