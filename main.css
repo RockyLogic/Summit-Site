@@ -23,8 +23,8 @@ text-decoration: underline;
     padding: 4vh 4vw;
     margin-bottom: 3vh;
     background-color: rgb(25, 26, 42);
-    border-top: 3px solid #32f3ff;
     border-left: 3px solid #32f3ff;
+    height: 135px;
 }
 
 .faq-header{
@@ -50,4 +50,10 @@ text-decoration: underline;
 }
 #footer{
     height: 20vh;
+}
+
+#coder{
+    color: rgb(121, 136, 242);
+    font-weight: 600;
+    text-decoration: underline;
 }

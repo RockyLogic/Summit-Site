@@ -14,7 +14,11 @@
 #navbar-title{
     height: 100%;
     color: white;
-    font-weight: 800;
+    font-weight: 600;
     margin-left: 7.5%;
     margin-bottom: 0;
+}
+
+ul.nav a:hover { 
+    color: #32f3ff !important; 
 }
