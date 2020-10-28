@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     width: 100%;
     color:white;
@@ -7,44 +11,69 @@ body{
 
 section{
     height: 90vh;
-    padding-bottom: 4vh;
+    text-align: center;
 }
 
 .emphasize{
 color: #32f3ff;
 text-decoration: underline;
+font-weight: 600;
 }
 
 .header{
+    font-weight: 800;
     padding: 4vh 0px;
+
 }
 
 .faq-box{
     padding: 4vh 4vw;
     margin-bottom: 3vh;
-    background-color: rgb(25, 26, 42);
-    border-left: 3px solid #32f3ff;
+    background-color:rgb(25, 26, 42);
+    border-left: 5px solid #32f3ff;
     height: 135px;
 }
 
 .faq-header{
+    font-size: larger;
     font-weight: 600;
 }
 
 .faq-answer{
     color:lightgrey;
 }
-#main{
-    height: 100vh;
-}
-
-#features{
+#siteList{
+    height: 90%;
+    width: 90%;
+    border-radius: 30px;
     background-color: rgb(33, 34, 51);
 }
+#siteList-scroll{
+    width: 90%;
+    height: 90%;
+    overflow: scroll;
+    overflow-x:hidden;
+    padding: 10px;
+    background-color: white;
+}
+
+.sites{
+    height: 200px;
+    background-color: rgb(33, 34, 51);
+    border-radius: 20px;
+}
+
+#main{
+    background-color: rgb(33, 34, 51);
+}
+
 #sites{
+    padding: 0;
 }
 
 #faq{
+    padding-top: 3%;
+    padding-bottom: 5%;
     height: auto;
     background-color: rgb(33, 34, 51);
 }
@@ -53,7 +82,21 @@ text-decoration: underline;
 }
 
 #coder{
-    color: rgb(121, 136, 242);
+    color: #32f3ff;
     font-weight: 600;
     text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(50, 243, 255, 1);
+    border-radius: 20px;
+}
+  
+::-webkit-scrollbar-track {
+    background: rgb(27, 27, 38);
+    border-radius: 20px;
 }
