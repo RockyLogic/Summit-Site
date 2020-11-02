@@ -42,33 +42,47 @@ font-weight: 600;
 .faq-answer{
     color:lightgrey;
 }
+
 #siteList{
+    max-height: 90vh;
     height: 90%;
     width: 90%;
     border-radius: 30px;
     background-color: rgb(33, 34, 51);
 }
 #siteList-scroll{
-    width: 90%;
+    width: 95%;
     height: 90%;
+    padding: 10px;
     overflow: scroll;
     overflow-x:hidden;
-    padding: 10px;
-    background-color: white;
-}
-
-.sites{
-    height: 200px;
-    background-color: rgb(33, 34, 51);
     border-radius: 20px;
+    background-color: transparent;
 }
 
+.site{
+    font-size: x-large;
+    font-weight: 600;
+    height: 15%;
+    min-height: 100px;
+    display: flex;
+    padding: 0% 5%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    border-radius: 20px;
+    align-items: center;
+    background-color:rgb(25, 26, 42);
+}
+
+
+/* Main Site Pages */
 #main{
     background-color: rgb(33, 34, 51);
 }
 
 #sites{
     padding: 0;
+    height: auto;
 }
 
 #faq{
@@ -87,6 +101,10 @@ font-weight: 600;
     text-decoration: underline;
 }
 
+
+
+
+/* Webpage Scroll Bar */
 ::-webkit-scrollbar {
     width: 10px;
 }
