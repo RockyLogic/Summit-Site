@@ -10,7 +10,7 @@ body{
 }
 
 section{
-    height: 90vh;
+    height: 95vh;
     text-align: center;
 }
 
@@ -27,11 +27,12 @@ font-weight: 600;
 }
 
 .faq-box{
+    height: auto;
     padding: 4vh 4vw;
     margin-bottom: 3vh;
+    border-radius: 5px;
     background-color:rgb(25, 26, 42);
     border-left: 5px solid #32f3ff;
-    height: 135px;
 }
 
 .faq-header{
@@ -41,6 +42,7 @@ font-weight: 600;
 
 .faq-answer{
     color:lightgrey;
+    font-weight: 600;
 }
 
 #siteList{
@@ -74,6 +76,20 @@ font-weight: 600;
     background-color:rgb(25, 26, 42);
 }
 
+.line {
+    left: 50%;
+    height: 10vh;
+    margin-top: 2vh;
+    margin-left: -3px;
+    border-radius: 5px;
+    position: absolute;
+    border-left: 6px solid #32f3ff;
+}
+
+ul.navbar-nav a:hover { 
+    color: #32f3ff !important; 
+}
+
 
 /* Main Site Pages */
 #main{
@@ -81,18 +97,20 @@ font-weight: 600;
 }
 
 #sites{
+    margin: 5% 0; 
     padding: 0;
     height: auto;
 }
 
 #faq{
-    padding-top: 3%;
-    padding-bottom: 5%;
+    padding: 3% 5% 5% 5%; 
+    margin: 2% 10%; 
+    border-radius: 30px;
     height: auto;
     background-color: rgb(33, 34, 51);
 }
 #footer{
-    height: 20vh;
+    height: auto;
 }
 
 #coder{
