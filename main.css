@@ -14,6 +14,10 @@ section{
     text-align: center;
 }
 
+ul.navbar-nav a:hover { 
+    color: #32f3ff !important; 
+}
+
 .emphasize{
 color: #32f3ff;
 text-decoration: underline;
@@ -26,25 +30,7 @@ font-weight: 600;
 
 }
 
-.faq-box{
-    height: auto;
-    padding: 4vh 4vw;
-    margin-bottom: 3vh;
-    border-radius: 5px;
-    background-color:rgb(25, 26, 42);
-    border-left: 5px solid #32f3ff;
-}
-
-.faq-header{
-    font-size: larger;
-    font-weight: 600;
-}
-
-.faq-answer{
-    color:lightgrey;
-    font-weight: 600;
-}
-
+/* Site List */
 #siteList{
     max-height: 90vh;
     height: 90%;
@@ -52,6 +38,7 @@ font-weight: 600;
     border-radius: 30px;
     background-color: rgb(33, 34, 51);
 }
+
 #siteList-scroll{
     width: 95%;
     height: 90%;
@@ -76,6 +63,61 @@ font-weight: 600;
     background-color:rgb(25, 26, 42);
 }
 
+/* Stats */
+.stat-block{
+    width: 80%;
+    color:white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+    /* background-color: white; */
+    background-color:rgb(25, 26, 42);
+    height: auto;
+}
+
+.stat-header{
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.stat-users{
+    color:lightgray;
+}
+
+.stat-checkouts{
+    color: #32f3ff;
+    font-weight: 800;
+}
+
+.stat-image{
+    height: auto;
+    font-weight: 800;
+    max-height: 160px;
+    align-self: center;
+    border-radius: 20px;
+}
+
+
+/* FAQ Section */
+.faq-box{
+    height: auto;
+    padding: 4vh 4vw;
+    margin-bottom: 3vh;
+    border-radius: 5px;
+    background-color:rgb(25, 26, 42);
+    border-left: 5px solid #32f3ff;
+}
+
+.faq-header{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.faq-answer{
+    color:lightgrey;
+    font-weight: 600;
+}
+
 .line {
     left: 50%;
     height: 10vh;
@@ -84,10 +126,6 @@ font-weight: 600;
     border-radius: 5px;
     position: absolute;
     border-left: 6px solid #32f3ff;
-}
-
-ul.navbar-nav a:hover { 
-    color: #32f3ff !important; 
 }
 
 
@@ -102,13 +140,21 @@ ul.navbar-nav a:hover {
     height: auto;
 }
 
+#stats{
+    margin: 5% 0;
+    height: auto;
+    min-height: 90vh;
+    background-color: rgb(33, 34, 51);
+}
+
 #faq{
     padding: 3% 5% 5% 5%; 
-    margin: 2% 10%; 
+    margin: 50px 10% 2% 10%; 
     border-radius: 30px;
     height: auto;
     background-color: rgb(33, 34, 51);
 }
+
 #footer{
     height: auto;
 }
@@ -118,8 +164,6 @@ ul.navbar-nav a:hover {
     font-weight: 600;
     text-decoration: underline;
 }
-
-
 
 
 /* Webpage Scroll Bar */
