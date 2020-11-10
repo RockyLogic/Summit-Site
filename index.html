@@ -23,7 +23,13 @@
             <div class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav navbar-pages">
                     <li class="nav-item">
+                        <a class="nav-item nav-link" href="#main">Home</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-item nav-link" href="#sites">Sites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="#stats">Success</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-item nav-link" href="#faq">FAQ</a>
@@ -41,7 +47,7 @@
             <div class="row">
                 <div class="col-12 d-flex flex-column align-items-center" style="text-align: center;">
                     <h1 style="margin-top: 5%;">A <span class="emphasize">Blazing</span> Fast Canadian Based CLI Bot.</h1>
-                    <button class="btn" style="font-weight:500; color:white; background-color:#32f3ff; margin: 15px 0; width: 100px;">Purchase</button>
+                    <button id="purchaseBtn" class="btn" style="font-weight:500; color:white; background-color:#2D2F49; margin: 15px 0;">Purchase</button>
                 </div>
             </div>
         </div>
@@ -59,7 +65,7 @@
             </div>
             <div class="col-12 col-md-6 m-0 d-flex align-items-center justify-content-center">
                 <div id="siteList" class="d-flex align-items-center justify-content-center">
-                    <div id="siteList-scroll">
+                    <div id="siteList-scroll" class="d-flex flex-column align-items-center">
                         <div class="site justify-content-between">
                             <div>Ssense</div><span><i class="fas fa-check justify-self-right" style="color:#32f3ff"></i></span>
                         </div>
@@ -89,17 +95,17 @@
 
 
     <section id="stats" class="d-flex justify-content-center align-items-center">
-        <div class="row" style="width: 100%; height: 100%;">
+        <div class=" row" style="width: 100%; height: 100%;">
             <div class="col-12 col-md-7 d-flex flex-column align-items-center">
 
                 <div class="stat-block d-flex">
-                    <img class="d-none d-lg-flex stat-image img-fluid " src="Summit.png" alt="summit logo">
+                    <img class="d-none d-lg-flex stat-image img-fluid " src="temp.png" alt="summit logo">
                     <div style="align-self: center; width: 100%;">
                         <h1 class="stat-header">
                             Yeezy 350 Carbon
                         </h1>
                         <h1 class="stat-checkouts">
-                            45+ Checkouts
+                            45+ Checkouts <i class="fas fa-shopping-cart d-none d-sm-inline d-md-none d-xl-inline"></i>
                         </h1>
                         <h5 class="stat-users">
                             5 Users
@@ -108,13 +114,13 @@
                 </div>
 
                 <div class="stat-block d-flex">
-                    <img class="d-none d-lg-flex stat-image img-fluid " src="Summit.png" alt="summit logo">
+                    <img class="d-none d-lg-flex stat-image img-fluid " src="temp.png" alt="summit logo">
                     <div style="align-self: center; width: 100%;">
                         <h1 class="stat-header">
                             Yeezy 350 Carbon
                         </h1>
                         <h1 class="stat-checkouts">
-                            45+ Checkouts
+                            45+ Checkouts <i class="fas fa-shopping-cart d-none d-sm-inline d-md-none d-xl-inline"></i>
                         </h1>
                         <h5 class="stat-users">
                             5 Users
@@ -123,28 +129,31 @@
                 </div>
 
                 <div class="stat-block d-flex">
-                    <img class="d-none d-lg-flex stat-image img-fluid " src="Summit.png" alt="summit logo">
+                    <img class=" d-none d-lg-flex stat-image img-fluid " src=" temp.png" alt="summit logo">
                     <div style="align-self: center; width: 100%;">
                         <h1 class="stat-header">
                             Yeezy 350 Carbon
                         </h1>
                         <h1 class="stat-checkouts">
-                            45+ Checkouts
+                            45+ Checkouts <i class="fas fa-shopping-cart d-none d-sm-inline d-md-none d-xl-inline"></i>
                         </h1>
                         <h5 class="stat-users">
                             5 Users
                         </h5>
                     </div>
                 </div>
-
             </div>
 
-            <div class="col-12 col-md-5">
-                test
+            <div class="col-12 col-md-5 d-flex justify-content-center align-items-center flex-col">
+                <div id="JoinTheTeam">
+                    <h1 class="header">Join The Team</h1>
+                    <div style="font-size: larger;">
+                        Developed by Canadians for Canadians. Our bot is tailored for our Canadian friends to maximize <span class="emphasize">success</span>.
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
 
     <section id="faq">
         <h1 class="header" style="margin-bottom: 3%;">FAQ</h1>

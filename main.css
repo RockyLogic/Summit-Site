@@ -14,14 +14,53 @@ section{
     text-align: center;
 }
 
+ul.navbar-nav a{
+    margin: 0 5px;
+    transition: .75s;
+}
 ul.navbar-nav a:hover { 
-    color: #32f3ff !important; 
+    margin: 0 10px;
+    color: #32f3ff !important;
+    transition: .75s;
+}
+
+div.navbar-buttons button{
+    outline: none !important;
+    box-shadow: none;
+    font-weight: 600;
+    margin-left: 10px;
+    transition: .3s;
+}
+
+div.navbar-buttons button:hover{ 
+    color: #32f3ff !important;
+    background-color: #2D2F49; 
+    transition: .3s;
+}
+
+div.navbar-buttons button:focus, button:active{ 
+    outline: none !important;
+    box-shadow: none;
+}
+
+#purchaseBtn{
+    outline: none !important;
+    box-shadow: none;
+    width: 100px;
+    transition: .3s;
+}
+
+#purchaseBtn:hover{ 
+    width: 110px;
+    color: #32f3ff !important;
+    background-color: #2D2F49; 
+    transition: .3s;
 }
 
 .emphasize{
-color: #32f3ff;
-text-decoration: underline;
-font-weight: 600;
+    color: #32f3ff;
+    text-decoration: underline;
+    font-weight: 600;
 }
 
 .header{
@@ -50,6 +89,7 @@ font-weight: 600;
 }
 
 .site{
+    width:95%;
     font-size: x-large;
     font-weight: 600;
     height: 15%;
@@ -61,6 +101,15 @@ font-weight: 600;
     border-radius: 20px;
     align-items: center;
     background-color:rgb(25, 26, 42);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .5s;
+}
+
+.site:hover{
+    z-index: 1;
+    transition: .5s;
+    color: #32f3ff;
+    transform: scale(1.03);
 }
 
 /* Stats */
@@ -73,6 +122,14 @@ font-weight: 600;
     /* background-color: white; */
     background-color:rgb(25, 26, 42);
     height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .5s;
+}
+
+.stat-block:hover{
+    transform: scale(1.03);
+    z-index: 1;
+    transition: .5s;
 }
 
 .stat-header{
@@ -97,6 +154,13 @@ font-weight: 600;
     border-radius: 20px;
 }
 
+#JoinTheTeam{
+    width: 85%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-radius: 20px;
+    /* background-color: rgba(0,0,0,0.2); */
+}
 
 /* FAQ Section */
 .faq-box{
@@ -105,7 +169,7 @@ font-weight: 600;
     margin-bottom: 3vh;
     border-radius: 5px;
     background-color:rgb(25, 26, 42);
-    border-left: 5px solid #32f3ff;
+    border-left: 6px solid #32f3ff;
 }
 
 .faq-header{
@@ -141,6 +205,7 @@ font-weight: 600;
 }
 
 #stats{
+    padding: 5% 0;
     margin: 5% 0;
     height: auto;
     min-height: 90vh;
