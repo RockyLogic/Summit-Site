@@ -12,6 +12,7 @@ body{
 section{
     height: 95vh;
     text-align: center;
+    overflow: hidden;
 }
 
 ul.navbar-nav a{
@@ -129,7 +130,7 @@ div.navbar-buttons button:focus, button:active{
 .stat-block:hover{
     transform: scale(1.03);
     z-index: 1;
-    transition: .5s;
+    transition: .2s;
 }
 
 .stat-header{
@@ -170,6 +171,8 @@ div.navbar-buttons button:focus, button:active{
     border-radius: 5px;
     background-color:rgb(25, 26, 42);
     border-left: 6px solid #32f3ff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .5s;
 }
 
 .faq-header{
@@ -192,10 +195,30 @@ div.navbar-buttons button:focus, button:active{
     border-left: 6px solid #32f3ff;
 }
 
+.navbar {
+    height: 10vh;
+    background-color: #212233;
+    transition: .5s;
+}
+
+.nav-scrolled {
+    padding: 10px 0 !important;
+    background-color: #191A2A !important;
+    transition: .5s;
+}
+
+.fadeIn{
+
+}
+
+.slideLeft{
+}
 
 /* Main Site Pages */
 #main{
-    background-color: rgb(33, 34, 51);
+    height: 80vh;
+    background: rgb(25,26,42);
+    background: linear-gradient(0deg, rgba(25,26,42,1) 0%, rgba(33,34,51,1) 50%);
 }
 
 #sites{
@@ -206,7 +229,7 @@ div.navbar-buttons button:focus, button:active{
 
 #stats{
     padding: 5% 0;
-    margin: 5% 0;
+    /* margin: 5% 0; */
     height: auto;
     min-height: 90vh;
     background-color: rgb(33, 34, 51);
@@ -214,10 +237,11 @@ div.navbar-buttons button:focus, button:active{
 
 #faq{
     padding: 3% 5% 5% 5%; 
-    margin: 50px 10% 2% 10%; 
-    border-radius: 30px;
+    /* margin: 50px 10% 2% 10%;  */
+    /* border-radius: 30px; */
     height: auto;
-    background-color: rgb(33, 34, 51);
+    background: rgb(25,26,42);
+    background: linear-gradient(0deg, rgba(25,26,42,1) 0%, rgba(33,34,51,1) 50%);
 }
 
 #footer{
