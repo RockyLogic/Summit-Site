@@ -24,9 +24,6 @@
             <div class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav navbar-pages">
                     <li class="nav-item">
-                        <a class="nav-item nav-link" href="#main">Home</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-item nav-link" href="#sites">Sites</a>
                     </li>
                     <li class="nav-item">
@@ -44,10 +41,15 @@
 
 
     <section id="main" class="d-flex align-items-center">
-        <div class="container-fluid">
+        <div id="terminal"></div>
+        <div class="container">
             <div class="row">
                 <div class="col-12 d-flex flex-column align-items-center" style="text-align: center;">
-                    <h1 class="fadeIn" style="margin-top: 5%;" data-delay="0s">A <span class="emphasize">Blazing</span> Fast Canadian Based CLI Bot.</h1>
+                    <div class="row d-flex flex-row">
+                        <div></div>
+                        <h1 class="header" style="font-size: 4.5rem; ">Summit</h1>
+                    </div>
+                    <h1 class="fadeIn d-none d-md-inline" style="margin-top: 3%; font-size: 2vw; " data-delay="0s">A <span class="emphasize">Blazing</span> Fast Canadian Based CLI Bot.</h1>
                     <button id="purchaseBtn" class="btn fadeIn" data-delay="0s" style="font-weight:500; color:white; background-color:#2D2F49; margin: 15px 0;">Purchase</button>
                 </div>
             </div>
@@ -85,7 +87,7 @@
                         <div class="site fadeIn" data-delay="1.3s">
                             <div style="color: grey;">Coming Soon</div>
                         </div>
-                        <div class="site">
+                        <div class="site fadeIn" data-delay="0s">
                             <div style="color: grey;">Coming Soon</div>
                         </div>
                     </div>
@@ -157,7 +159,7 @@
     </section>
 
     <section id="faq">
-        <h1 class="header" style="margin-bottom: 3%;">FAQ</h1>
+        <h1 class="header" style="margin-bottom: 1%;">FAQ</h1>
         <div class="container">
             <div class="row d-flex">
                 <div class="col-12 col-md-6" style="padding: 0 3%;">

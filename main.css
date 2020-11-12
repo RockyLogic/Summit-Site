@@ -44,6 +44,20 @@ div.navbar-buttons button:focus, button:active{
     box-shadow: none;
 }
 
+
+#terminal{
+    height: 60vh;
+    width: 50vw;
+    background-color: #141522;
+    position: absolute;
+    margin: auto;
+    top: 0%; left: 0; bottom: 0%; right: 0;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: 3vh solid rgb(9, 14, 24);
+    max-width: 1000px;
+    min-width: 350px;
+}
 #purchaseBtn{
     outline: none !important;
     box-shadow: none;
@@ -104,7 +118,9 @@ div.navbar-buttons button:focus, button:active{
     background-color:rgb(25, 26, 42);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: .5s;
+    opacity: 0;
 }
+
 
 .site:hover{
     z-index: 1;
