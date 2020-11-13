@@ -5,7 +5,8 @@ html{
 body{
     width: 100%;
     color:white;
-    background-color: rgb(25, 26, 42);
+    background-image: linear-gradient(216deg, rgba(77, 77, 77,0.05) 0%, rgba(77, 77, 77,0.05) 25%,rgba(42, 42, 42,0.05) 25%, rgba(42, 42, 42,0.05) 38%,rgba(223, 223, 223,0.05) 38%, rgba(223, 223, 223,0.05) 75%,rgba(36, 36, 36,0.05) 75%, rgba(36, 36, 36,0.05) 100%),linear-gradient(44deg, rgba(128, 128, 128,0.05) 0%, rgba(128, 128, 128,0.05) 34%,rgba(212, 212, 212,0.05) 34%, rgba(212, 212, 212,0.05) 57%,rgba(25, 25, 25,0.05) 57%, rgba(25, 25, 25,0.05) 89%,rgba(135, 135, 135,0.05) 89%, rgba(135, 135, 135,0.05) 100%),linear-gradient(241deg, rgba(55, 55, 55,0.05) 0%, rgba(55, 55, 55,0.05) 14%,rgba(209, 209, 209,0.05) 14%, rgba(209, 209, 209,0.05) 60%,rgba(245, 245, 245,0.05) 60%, rgba(245, 245, 245,0.05) 69%,rgba(164, 164, 164,0.05) 69%, rgba(164, 164, 164,0.05) 100%),linear-gradient(249deg, rgba(248, 248, 248,0.05) 0%, rgba(248, 248, 248,0.05) 32%,rgba(148, 148, 148,0.05) 32%, rgba(148, 148, 148,0.05) 35%,rgba(202, 202, 202,0.05) 35%, rgba(202, 202, 202,0.05) 51%,rgba(181, 181, 181,0.05) 51%, rgba(181, 181, 181,0.05) 100%),linear-gradient(92deg, rgb(25,26,42),rgb(25,26,42));
+
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -20,7 +21,6 @@ ul.navbar-nav a{
     transition: .75s;
 }
 ul.navbar-nav a:hover { 
-    margin: 0 10px;
     color: #32f3ff !important;
     transition: .75s;
 }
@@ -29,13 +29,13 @@ div.navbar-buttons button{
     outline: none !important;
     box-shadow: none;
     font-weight: 600;
-    margin-left: 10px;
+    margin-left: 20px;
     transition: .3s;
 }
 
 div.navbar-buttons button:hover{ 
-    color: #32f3ff !important;
-    background-color: #2D2F49; 
+    /* color: #32f3ff !important;
+    background-color: #2D2F49;  */
     transition: .3s;
 }
 
@@ -46,12 +46,12 @@ div.navbar-buttons button:focus, button:active{
 
 
 #terminal{
-    height: 60vh;
+    height: 55vh;
     width: 50vw;
     background-color: #141522;
     position: absolute;
     margin: auto;
-    top: 0%; left: 0; bottom: 0%; right: 0;
+    top: 5%; left: 0; bottom: 0%; right: 0;
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-top: 3vh solid rgb(9, 14, 24);
@@ -67,8 +67,6 @@ div.navbar-buttons button:focus, button:active{
 
 #purchaseBtn:hover{ 
     width: 110px;
-    color: #32f3ff !important;
-    background-color: #2D2F49; 
     transition: .3s;
 }
 
@@ -90,7 +88,7 @@ div.navbar-buttons button:focus, button:active{
     height: 90%;
     width: 90%;
     border-radius: 30px;
-    background-color: rgb(33, 34, 51);
+    /* background-color: rgb(33, 34, 51); */
 }
 
 #siteList-scroll{
@@ -212,8 +210,8 @@ div.navbar-buttons button:focus, button:active{
 }
 
 .navbar {
-    height: 10vh;
-    background-color: #212233;
+    height: 15vh;
+    background-color: transparent;
     transition: .5s;
 }
 
@@ -223,22 +221,15 @@ div.navbar-buttons button:focus, button:active{
     transition: .5s;
 }
 
-.fadeIn{
-
-}
-
-.slideLeft{
-}
-
 /* Main Site Pages */
 #main{
     height: 80vh;
-    background: rgb(25,26,42);
-    background: linear-gradient(0deg, rgba(25,26,42,1) 0%, rgba(33,34,51,1) 50%);
+    /* background: rgb(25,26,42);
+    background: linear-gradient(0deg, rgba(25,26,42,1) 0%, rgba(33,34,51,1) 50%); */
 }
 
 #sites{
-    margin: 5% 0; 
+    /* margin: 5% 0;  */
     padding: 0;
     height: auto;
 }
@@ -248,16 +239,15 @@ div.navbar-buttons button:focus, button:active{
     /* margin: 5% 0; */
     height: auto;
     min-height: 90vh;
-    background-color: rgb(33, 34, 51);
 }
 
 #faq{
-    padding: 3% 5% 5% 5%; 
+    padding: 2% 5% 5% 5%; 
     /* margin: 50px 10% 2% 10%;  */
     /* border-radius: 30px; */
     height: auto;
-    background: rgb(25,26,42);
-    background: linear-gradient(0deg, rgba(25,26,42,1) 0%, rgba(33,34,51,1) 50%);
+    /* background: rgb(25,26,42);
+    background: linear-gradient(0deg, rgba(25,26,42,1) 0%, rgba(33,34,51,1) 50%); */
 }
 
 #footer{
@@ -283,5 +273,4 @@ div.navbar-buttons button:focus, button:active{
   
 ::-webkit-scrollbar-track {
     background: rgb(27, 27, 38);
-    border-radius: 20px;
 }

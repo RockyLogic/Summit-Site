@@ -5,9 +5,7 @@ textObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.intersectionRatio > 0) {
             entry.target.style.animation = `fadeInAndUp 1s ${entry.target.dataset.delay} forwards ease-out`
-        } // else {
-        //     entry.target.style.animation = `fadeOutAndDown .75s forwards ease-out`
-        // }
+        }
     })
 })
 
