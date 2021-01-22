@@ -1,5 +1,5 @@
 # Summit-Site
-Website front end draft for Summit AIO
+Reponsive and interactive front end draft for Summit AIO
 
 Deloyed @: https://rockylogic.github.io/Summit-Site/
 
