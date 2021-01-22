@@ -124,7 +124,7 @@ div.navbar-buttons button:focus, button:active{
     z-index: 1;
     transition: .5s;
     color: #32f3ff;
-    transform: scale(1.03);
+    transform: scale(1.03) !important;
 }
 
 /* Stats */

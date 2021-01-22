@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="Summit.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./public/images/Summit.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/6744a003bb.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="animations.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="./public/css/animations.css">
+    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="./public/css/navbar.css">
     <title>Summit</title>
 </head>
 
 <body>
-    <nav id="navbar" class="navbar navbar-dark navbar-expand-md">
+    <nav id="navbar" class="navbar navbar-dark navbar-expand-md" style="padding: 30px 1rem;">
         <div class="container">
             <a id="navbar-logo" class="navbar-brand d-flex align-items-center" target="_blank" href="https://twitter.com/SummitBots">
                 <!-- <img src="Summit.png" width="60" height="60" style="border-radius: 50%;"> -->
@@ -45,9 +45,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex flex-column align-items-center" style="text-align: center;">
-                    <div class="row d-flex flex-row">
-                        <h1 class="header" style="font-size: 4.5rem; padding:0;">Summit</h1>
-                    </div>
+
+                    <h1 class="fadeIn header" data-delay="0s" style="font-size: 4.5rem; padding:0;">Summit</h1>
+
                     <h1 class="fadeIn d-none d-md-inline" style="margin-top: 3%; font-size: 2vw; " data-delay="0s">A <span class="emphasize">Blazing</span> Fast Canadian Based CLI Bot.</h1>
                     <button id="purchaseBtn" class="btn fadeIn" data-delay="0s" style="font-weight:500; color:white; background-image: linear-gradient(to right, #32f3ff 0%, #00afbb 100%); margin: 15px 0;">Purchase</button>
                 </div>
@@ -101,7 +101,7 @@
             <div class="col-12 col-md-7 d-flex flex-column align-items-center">
 
                 <div class="stat-block d-flex slideRight">
-                    <img class="d-none d-lg-flex stat-image img-fluid " src="temp.png" alt="summit logo">
+                    <img class="d-none d-lg-flex stat-image img-fluid " src="./public/images/temp.png" alt="summit logo">
                     <div style="align-self: center; width: 100%;">
                         <h1 class="stat-header">
                             Yeezy 350 Carbon
@@ -116,7 +116,7 @@
                 </div>
 
                 <div class="stat-block d-flex slideRight">
-                    <img class="d-none d-lg-flex stat-image img-fluid " src="temp.png" alt="summit logo">
+                    <img class="d-none d-lg-flex stat-image img-fluid " src="./public/images/temp.png" alt="summit logo">
                     <div style="align-self: center; width: 100%;">
                         <h1 class="stat-header">
                             Yeezy 350 Carbon
@@ -131,7 +131,7 @@
                 </div>
 
                 <div class="stat-block d-flex slideRight">
-                    <img class=" d-none d-lg-flex stat-image img-fluid " src=" temp.png" alt="summit logo">
+                    <img class=" d-none d-lg-flex stat-image img-fluid " src="./public/images/temp.png" alt="summit logo">
                     <div style="align-self: center; width: 100%;">
                         <h1 class="stat-header">
                             Yeezy 350 Carbon
@@ -263,7 +263,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
     <!-- Custom js file -->
-    <script src="index.js"></script>
+    <script src="./public/js/index.js"></script>
 </body>
 
 </html>
