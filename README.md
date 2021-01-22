@@ -1,7 +1,7 @@
 # Summit-Site
 Website front end draft for Summit AIO
 
-Deloyed @: 
+Deloyed @: https://rockylogic.github.io/Summit-Site/
 
 ![Landing1](https://cdn.discordapp.com/attachments/613371646937399296/801994220671205416/unknown.png)
 ![Landing2](https://cdn.discordapp.com/attachments/613371646937399296/801994290909675550/unknown.png)
